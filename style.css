@@ -1,0 +1,46 @@
+*{
+    text-align: center;
+    padding:10px;
+    margin:0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-image: url("https://media.istockphoto.com/id/1191658515/photo/neon-background-abstract-blue-and-pink-with-light-shapes-line-diagonals.webp?b=1&s=170667a&w=0&k=20&c=dmT59kRCask04UiZuCNp_GQyI5Ph6XtkcRIdE015b8Q=");
+    background-size: cover;
+    z-index:-1;
+}
+.containers{
+  max-width:20rem;
+   min-width: 50%;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.5);
+    padding:2rem;
+    margin-left: 20rem;
+    z-index:1;
+    background-color: rgb(248, 248, 247);
+}
+.heading{
+    font-weight: bold;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.5);
+    
+   
+  
+     
+}
+
+.guess{
+    font-family: 'Fasthand', cursive;
+    font-size: 1.7rem;
+    padding:1rem;
+    padding-bottom: 0;
+ 
+  
+}
+#message{
+    font-size: 1.2rem;
+}
+input:hover{
+    background-color: rgb(144, 189, 240,0.2);
+    border-radius: 10px;
+    border:2px solid plum;
+}
